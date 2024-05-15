@@ -1,0 +1,66 @@
+{
+    
+    "data": [
+        {
+          "name": "Shrihari Binwade",
+          "stats": [
+            { "year": "2015", "value": 640 },
+            { "year": "2016", "value": 1215 },
+            { "year": "2017", "value": 1059 },
+            { "year": "2018", "value": 1307 },
+            { "year": "2019", "value": 608 },
+            { "year": "2020", "value": 116 },
+            { "year": "2021", "value": 536 },
+            { "year": "2022", "value": 265 },
+            { "year": "2023", "value": 671 },
+            { "year": "2024", "value": 58 }
+          ]
+        },
+        {
+          "name": "Rohit Sharma",
+          "stats": [
+            { "year": "2015", "value": 326 },
+            { "year": "2016", "value": 288 },
+            { "year": "2017", "value": 217 },
+            { "year": "2018", "value": 184 },
+            { "year": "2019", "value": 556 },
+            { "year": "2020", "value": 906 },
+            { "year": "2021", "value": 90 },
+            { "year": "2022", "value": 545 },
+            { "year": "2023", "value": 450 },
+            { "year": "2024", "value": 456 }
+          ]
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "stats": [
+            { "year": "2015", "value": 109 },
+            { "year": "2016", "value": 375 },
+            { "year": "2017", "value": 328 },
+            { "year": "2018", "value": 228 },
+            { "year": "2019", "value": 440 },
+            { "year": "2020", "value": 82 },
+            { "year": "2021", "value": 269 },
+            { "year": "2022", "value": 328 },
+            { "year": "2023", "value": 281 },
+            { "year": "2024", "value": 232 }
+          ]
+        },
+        {
+          "name": "KL Rahul",
+          "stats": [
+            { "year": "2015", "value": 252 },
+            { "year": "2016", "value": 539 },
+            { "year": "2017", "value": 633 },
+            { "year": "2018", "value": 468 },
+            { "year": "2019", "value": 106 },
+            { "year": "2020", "value": 50 },
+            { "year": "2021", "value": 461 },
+            { "year": "2022", "value": 137 },
+            { "year": "2023", "value": 143 },
+            { "year": "2024", "value": 116 }
+          ]
+        }
+      ]
+  }
+  

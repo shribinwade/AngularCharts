@@ -1,0 +1,23 @@
+<div class="chart-container " style="width: 800px; margin-left: 250px;margin-top: 30px;">
+  <canvas  id="MyChart" >{{ chart }}</canvas>
+
+  <select [(ngModel)]="lessThenOrGreaterThan" style="width: 150px; height: 30px;">
+    <option value="greaterthan">Greater than</option>
+    <option value="lessthan">Less than</option>
+  </select>
+  <input  [(ngModel)]="filterLimit" type="number" placeholder="Filter Limit" style="width:150px; height: 25px; margin: 3px;">
+  <label for="Charts">Choose a Chart : </label>
+  <select id="Charts" [(ngModel)]="charttype" style="width: 150px; height: 30px;">
+    
+    <option value='line'>Line</option>
+    <option value='bar'>Bar</option>
+  </select>
+
+  <br>
+
+  <button class="button" (click)="applyFilter(filterLimit)" style= "width:150px; height: 30px; margin: 3px;">Apply Filter</button>
+
+ 
+  
+
+</div>
