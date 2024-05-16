@@ -8,7 +8,8 @@ export class CommonServiceService {
   
 
   constructor(private httpClient:HttpClient) { }
-  APIURL="http://localhost:3001/data";
+   APIURL="https://shribinwade.github.io/api/db.json";
+ // APIURL="http://localhost:3000/data";
 
    getserviceData() {
     return this.httpClient.get(this.APIURL);

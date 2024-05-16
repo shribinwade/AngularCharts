@@ -57,10 +57,13 @@ updateChart(updatedyear:any, updatedData:any){
 
   ngOnInit(): void {
     this.getData().subscribe(data => {
-          this.data=data;
-          const year = data.map((player:any)=> player.stats.map((stat:any) => stat.year))
+          this.data=data.data;
+          
+          
+          
+          const year = this.data.map((player:any)=> player.stats.map((stat:any) => stat.year))
           this.years= year;
-          const playersData = data.map((player:any)=>({
+          const playersData = this.data.map((player:any)=>({
             label: player.name,
             data : player.stats.map((stat:any) => stat.value)
           }))
